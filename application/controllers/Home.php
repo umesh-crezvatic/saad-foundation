@@ -11,7 +11,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-	   
+		echo "Access From Github";
 		$this->load->view("front/index");
 	}
 }
