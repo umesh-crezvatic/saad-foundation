@@ -23,7 +23,7 @@
                                         <i class="fas fa-envelope"></i>
                                     </div>
                                     <div class="email">
-                                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                        <a href="mailto:contact@saadfoundation.com">contact@saadfoundation.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -44,35 +44,11 @@
                             <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                             <ul class="main-menu__list">
                                 <li><a href="<?php echo base_url() ?>">Home</a></li>
-                                <!-- <li class="dropdown current">
-                                    <a href="<?php echo base_url() ?>">Home</a>
-                                    <ul>
-                                        <li>
-                                            <a href="index.html">Home One</a>
-                                        </li>
-                                        <li><a href="index2.html">Home Two</a></li>
-                                        <li><a href="index3.html">Home Three</a></li>
-                                        <li class="dropdown">
-                                            <a href="#">Header Styles</a>
-                                            <ul>
-                                                <li><a href="index.html">Header One</a></li>
-                                                <li><a href="index.html">Header Two</a></li>
-                                                <li><a href="index.html">Header Three</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li> -->
-                                <li class="dropdown">
-                                    <a href="#">About Us</a>
-                                    <ul>
-
-                                        <li><a href="volunteers.html">Volunteers</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="become-volunteer.html">Become a Volunteer</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">Donations</a>
+                                <li><a href="<?php echo base_url() ?>about">About Us</a></li>
+                                <li><a href="<?php echo base_url() ?>project">Project</a></li>
+                                <li><a href="<?php echo base_url() ?>contact">Contact</a></li>
+                                <!-- <li class="dropdown">
+                                    <a href="#">Projects</a>
                                     <ul>
                                         <li><a href="causes.html">Causes</a></li>
                                         <li><a href="causes-details.html">Causes Details</a></li>
@@ -91,19 +67,19 @@
                                         <li><a href="news.html">News</a></li>
                                         <li><a href="news-details.html">News Details</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                </li> -->
+                                
                             </ul>
                             <div class="main-menu__right">
-                                <!-- <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a> -->
-                                <!-- <a href="#" class="main-menu__cart icon-shopping-cart  "></a> -->
+                                <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
+                                <a href="#" class="main-menu__cart icon-shopping-cart  "></a>
                                 <div class="main-menu__phone-contact">
                                     <div class="main-menu__phone-icon">
                                         <span class="icon-chat"></span>
                                     </div>
                                     <div class="main-menu__phone-number">
                                         <p>Call Anytime</p>
-                                        <a href="tel:92 666 888 0000">92 666 888 0000</a>
+                                        <a href="tel:+91-8082054301">+91-8082054301</a>
                                     </div>
                                 </div>
                                 <a href="causes-details.html" class="main-menu__donate-btn"><i class="fa fa-heart"></i>Donate </a>

@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home One || Halpes || HTML Template For Donation Services</title>
+    <title>Saad Foundation</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo  base_url() ?>assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo  base_url() ?>assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo  base_url() ?>assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Crsine HTML Template For Car Services" />
+    <link rel="manifest" href="<?php echo  base_url() ?>assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="The SAAD Foundation, established in 2011 and registered under the Act of Registration of Societies 1860, is a non-profit and non-government organization. The Saad Foundation places a special emphasis on community development." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">

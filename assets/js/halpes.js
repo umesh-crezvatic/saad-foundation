@@ -42,8 +42,8 @@
           });
         }
       }, {
-        accY: 0
-      }
+      accY: 0
+    }
     );
   }
 
@@ -336,8 +336,8 @@
       var target = $(this).attr("data-target");
       // animate
       $("html, body").animate({
-          scrollTop: $(target).offset().top,
-        },
+        scrollTop: $(target).offset().top,
+      },
         1000
       );
 
@@ -608,8 +608,8 @@
     if ($(this).next().val() > 1) {
       if ($(this).next().val() > 1)
         $(this)
-        .next()
-        .val(+$(this).next().val() - 1);
+          .next()
+          .val(+$(this).next().val() - 1);
     }
   });
 
@@ -802,3 +802,19 @@
     }
   });
 })(jQuery);
+
+
+// read more read less script
+$(document).ready(function () {
+
+})
+$('.read_more_button').click(function () {
+  $(this).parent().find('.read_more_text').toggleClass('active');
+  if ($(this).attr('data-val') == '1') {
+    $(this).attr('data-val','0')
+    $(this).html('Read less <i class="fa fa-angle-up"></i>')
+  }else{
+    $(this).attr('data-val','1')
+    $(this).html('Read more <i class="fa fa-angle-down"></i>')
+  }
+})
